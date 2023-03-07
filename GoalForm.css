@@ -1,0 +1,43 @@
+.form {
+    width: 30%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: left;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: rgb(212, 236, 236);
+    margin-bottom: 2em;
+    padding: 10px;
+    border: 1px solid;
+    border-color: rgb(169, 152, 152);
+}
+
+.title {
+font-weight: bold;
+margin-bottom: 1em;
+}
+
+input {
+    width: 80%;
+    min-height: 1.5em;
+    margin-bottom: 10px;
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+}
+button{
+    padding: 5px 10px;
+    font-size: 18px;
+    background-color: rgb(156, 16, 16);
+    border-color: transparent;
+    color: white;
+    box-shadow: cornflowerblue;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+.form.notValid label{
+  color: red;
+}
+.form.notValid input{
+    background-color: red;
+}
